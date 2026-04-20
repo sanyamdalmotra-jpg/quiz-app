@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #203a43);
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    margin-top: 60px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: #00d4ff;
+}
+
+#setup-box, #quiz-box {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px;
+    width: 320px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+input, select {
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+}
+
+button {
+    width: 85%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+
+.option-btn {
+    background-color: #0077b6;
+    margin: 5px;
+}
+
+.option-btn:hover {
+    background-color: #00b4d8;
+}
+
+#welcome {
+    color: #caf0f8;
+}
+
+#progress {
+    color: #90e0ef;
+}
